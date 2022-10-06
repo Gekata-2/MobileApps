@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class Activity6 extends AppCompatActivity {
 
@@ -27,5 +26,4 @@ public class Activity6 extends AppCompatActivity {
 
         result.setText(String.valueOf(Double.valueOf(number1.getText().toString()) + Double.valueOf(number2.getText().toString())));
     }
-
 }
