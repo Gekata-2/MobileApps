@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab3</string>
+
+    <string-array name="animals">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
+</resources>
