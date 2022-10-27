@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="367dp"
+        android:layout_height="185dp"
+        android:background="#FFFFFF"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:text="Dialog window"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/action_ok"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Ok"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/action_cancel"
+            android:layout_width="134dp"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Cancel"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="221dp"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="456dp"
+            android:layout_marginBottom="89dp"
+            android:entries="@array/animals"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
