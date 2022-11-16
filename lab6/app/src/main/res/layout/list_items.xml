@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingStart="8dip"
+    android:paddingTop="1dip"
+    android:paddingEnd="8dip"
+
+    android:paddingBottom="1dip">
+
+    <TextView
+        android:id="@+id/Item"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5"
+        android:background="@color/blue_500"
+        android:gravity="center"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

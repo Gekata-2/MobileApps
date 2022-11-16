@@ -25,8 +25,6 @@ public class task2 extends AppCompatActivity {
 
         pageState.setText(PAGE_ADDED);
         startActivity(new Intent(this, Activity2.class));
-
-
     }
 
     public void DeletePage(View v) {

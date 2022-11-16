@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         int received_stack_depth = intent.getIntExtra("current_stack_depth", 0);
 
         current_stack_depth = received_stack_depth;
-        stack_counter.setText(String.valueOf(current_stack_depth+1));
+        stack_counter.setText(String.valueOf(current_stack_depth + 1));
         if (current_stack_depth > 0) {
             nextTask.setEnabled(false);
         }
@@ -48,5 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void NextTask(View v) {
         startActivity(new Intent(this, task2.class));
+    }
+
+    public void AdditionalTask(View v) {
+        startActivity(new Intent(this, AddTask.class));
     }
 }
