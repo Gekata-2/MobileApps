@@ -17,7 +17,7 @@
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041"
+        app:layout_constraintVertical_bias="0.153"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
@@ -44,7 +44,7 @@
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Rectangle_1"
-        app:layout_constraintVertical_bias="0.04"
+        app:layout_constraintVertical_bias="0.052"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
@@ -71,7 +71,7 @@
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Rectangle_2"
-        app:layout_constraintVertical_bias="0.04"
+        app:layout_constraintVertical_bias="0.092"
         tools:layout_editor_absoluteX="0dp">
 
         <TextView
@@ -88,7 +88,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.039" />
     </LinearLayout>
-
 
     <Button
         android:id="@+id/NextPage"
@@ -112,6 +111,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab6"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -119,9 +119,9 @@ public class NoteList extends AppCompatActivity {
             cv.put(COLUMN_NOTE, noteText);
             long result = db.insert(TABLE_NAME, null, cv);
             if (result == -1) {
-                Toast.makeText(context, "Failed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Ошибка", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(context, "Added Successfully!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Запись успешно добавлена!", Toast.LENGTH_SHORT).show();
             }
         }
 
@@ -143,9 +143,9 @@ public class NoteList extends AppCompatActivity {
 
             long result = db.update(TABLE_NAME, cv, "note_id=?", new String[]{row_id});
             if (result == -1) {
-                Toast.makeText(context, "Failed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Ошибка", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(context, "Updated Successfully!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Успешно обновлено!", Toast.LENGTH_SHORT).show();
             }
         }
 
@@ -153,9 +153,9 @@ public class NoteList extends AppCompatActivity {
             SQLiteDatabase db = this.getWritableDatabase();
             long result = db.delete(TABLE_NAME, COLUMN_ID + "=?", new String[]{row_id});
             if (result == -1) {
-                Toast.makeText(context, "Failed to Delete.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Ошибка", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(context, "Successfully Deleted.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Запись удалена", Toast.LENGTH_SHORT).show();
             }
         }
 
